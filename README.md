@@ -1,2 +1,2 @@
-# Minted - `console.log()` Removal 🚮
+# Minted! - `console.log()` Removal 🚮
 *Node module published on NPM 📦*
