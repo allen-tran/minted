@@ -1,0 +1,26 @@
+{
+  "name": "minted",
+  "version": "1.0.0",
+  "description": "Detects console logs and removes them so they don't end up in your diff!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allen-tran/Minted.git"
+  },
+  "keywords": [
+    "node",
+    "module",
+    "console",
+    "log",
+    "consolelog"
+  ],
+  "author": "Allen Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allen-tran/Minted/issues"
+  },
+  "homepage": "https://github.com/allen-tran/Minted#readme"
+}
