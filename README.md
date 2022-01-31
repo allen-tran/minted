@@ -1,5 +1,14 @@
 # Minted! - `console.log()` Removal 🚮
-*Node module published on NPM 📦*
+*Minted is a command line tool that detects console logs and removes them for you! This will make sure they never end up in your diff again. Click [here](https://www.npmjs.com/package/minted) to see it on npm 📦*
 
-## Getting Started 🕹
-### Click [here](https://www.npmjs.com/package/minted) to see minted on npm!
+### Installation ⬇️
+```cmd
+$ npm i minted --save
+```
+
+### Usage
+```cmd
+$ npm run mint
+```
+
+### Demo
