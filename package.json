@@ -1,6 +1,6 @@
 {
   "name": "minted",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Detects console logs and removes them so they don't end up in your diff!",
   "main": "index.js",
   "bin": "./index.js",
