@@ -6,12 +6,12 @@
 $ npm i minted --save
 ```
 
-## Usage
+## Usage 🪄
 ```cmd
 $ npm run mint
 ```
 
-## Demo
+## Demo 🤹🏼‍♂️
 
 #### Example code with console.logs
 ```js
