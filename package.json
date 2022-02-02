@@ -1,10 +1,11 @@
 {
   "name": "minted",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Detects console logs and removes them so they don't end up in your diff!",
   "main": "index.js",
   "bin": "./index.js",
   "scripts": {
+    "mint": "node index.js",
     "test": "node index.js"
   },
   "repository": {
@@ -26,6 +27,7 @@
   "homepage": "https://github.com/allen-tran/Minted#readme",
   "dependencies": {
     "fs": "^0.0.1-security",
+    "path": "^0.12.7",
     "prompt": "^1.2.1",
     "readline": "^1.3.0"
   }
