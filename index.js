@@ -34,40 +34,7 @@ const goThroughEachFile = () => {
       });
     }
   });
-  // console.log('Do you wish to remove them? [Y, n]');
-  // prompt.start()
-  // prompt.get(['SELECTION'], function (err, result) {
-  //   if (result.SELECTION == '') console.log('Default yes');
-  //   if (result.SELECTION.includes('n', 'N')) return
-  // });
 }
-
-// const readLines = (file) => {
-//   var fs = require('fs'), readline = require('readline');
-   
-//   var rd = readline.createInterface({
-//     input: fs.createReadStream(file),    // output: process.stdout,
-//     console: false
-//   });
-//   let lineCount = 0;
-//   let consoleCount = 0;
-//   rd.on('line', function(error, line) {
-//       // if( lineCount == 0) {
-//       //   console.log(`Minting file: ${file}`);
-//       // }
-//       console.log(line);
-//       lineCount++;
-//       if (line.includes('console.log')){
-//         consoleCount++;
-//         console.log(`Line ${lineCount}: ${line.trim()}`);
-//       } 
-//       if (error) {
-//         console.log(error);
-//       }
-//   });
-
-//   if (consoleCount > 0) console.log(`\n${consoleCount} console.logs detected!\n`);
-// }
 
 async function processLineByLine(file) {
   
@@ -81,19 +48,13 @@ async function processLineByLine(file) {
   let consoleCount = 0;
   for await (const line of rl) {
     lineCount++;
-    // Each line in input.txt will be successively available here as `line`.
     if (line.includes('console.log')){
         consoleCount++;
         console.log(`Line ${lineCount}: ${line.trim()}`);
     }
   }
   if (consoleCount > 0) console.log(`\n${consoleCount} console.logs detected!\n`);
-  // console.log('Do you wish to remove them? [Y, n]');
-  // prompt.start()
-  // prompt.get(['SELECTION'], function (err, result) {
-  //   if (result.SELECTION == '') console.log('Default yes');
-  //   if (result.SELECTION.includes('n', 'N')) return
-  // });
+
 }
 
 const displayUI = () => {
