@@ -1,7 +1,8 @@
-# Minted
-Minted is a node module that operates in the command line. It detects `console.log()`s in your project files and removes them for you! This will make sure they never end up in your diff again. Click [here](https://www.npmjs.com/package/minted) to see it on npm 📦
+# Minted ❄️
 
-![ezgif com-gif-maker (1) (1)](https://user-images.githubusercontent.com/63386979/170893319-7513228f-6eef-42b4-9ece-0ff4068be701.jpg)
+![ezgif com-gif-maker (1) (1) (1)](https://user-images.githubusercontent.com/63386979/170894034-3e813fdb-4905-4dae-8f97-ae80e36ffe2f.jpg)
+
+Minted is a node module that operates in the command line. It detects `console.log()`s in your project files and removes them for you! This will make sure they never end up in your diff again. Click [here](https://www.npmjs.com/package/minted) to see it on npm 📦
 
 ## Installation ⬇️
 ```cmd
