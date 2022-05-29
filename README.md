@@ -1,5 +1,7 @@
 # Minted! - `console.log()` Removal 🚮
-*Minted is a command line tool that detects console logs and removes them for you! This will make sure they never end up in your diff again. Click [here](https://www.npmjs.com/package/minted) to see it on npm 📦*
+Minted is a command line tool that detects console logs and removes them for you! This will make sure they never end up in your diff again. Click [here](https://www.npmjs.com/package/minted) to see it on npm 📦
+
+![ezgif com-gif-maker (1) (1)](https://user-images.githubusercontent.com/63386979/170893319-7513228f-6eef-42b4-9ece-0ff4068be701.jpg)
 
 ## Installation ⬇️
 ```cmd
